@@ -14,7 +14,7 @@ You should write in the input file like this:
 
 When i wrote this code, i had just few knowledge about data structure, so the code is not optimized for speed. It's just OK with the result.  
 #### 1.Problem
-This is the problem when i was studying linear algebra in university. When i worked on this project for the first time, i code for the equation in the case the number of variables equals to the number of equations. I realized that i could expansion my method with echelon matrix.  
+This is the problem when i was studying linear algebra in university. When i worked on this project for the first time, i code for the equation in the case the number of variables equals to the number of equations. I realized that i could expand my method with echelon matrix.  
 An echelon matrix is such a matrix that the number of "first-zeros" in each line increases. Here, what i mean by "first-zeros" are the zero numbers in each line, there no other number between any first zero numbers. For example if your line is: 0 0 0 1 0 2, then the first three zeros are "first-zeros", the fifth zero is not "first-zero".  
 The thing needed to be done first is to form the echelon matrix. In the source code, ``countzero`` function is used to count the "first-zeros" in eachline, and ``sortmat`` function is used for sorting the "first-zero" in each line in order not to decrease.  
 Function ``cheo`` to form the echelon matrix. For each step, we sort the line in order not to decrease "first-zeros", and perform a substract from "currentline" with all lines below to get all below lines get higher "first-zeros". For example if your lines are:  
