@@ -3,7 +3,7 @@ This is a problem i finished in second year, because this is a simple method for
 Before diving deep into the algorithm, let's me introduce the file structure. The file structure contains 3 files:
 - ``eqn.c``: the source file: contains all hand-made function for solve the system of linear equations.
 - ``eqn``: the executive file, is compiled from ``eqn.c``.
-- ``input.txt``: the input file, you provide the input equation for the program here, each line of the input is an equation, the last number in each line is the result of the equation. For example, if you want the algorithm solves the equations:
+- ``input.txt``: the input file, you provide the input equation for the program here, each line of the input is an equation, the last number in each line is the result of the equation. For example, if you want the algorithm solves the equations:  
 $x_1+5x_2+4x_3+3x_4=7$  
 $x_1-2x_2+6x_3-5x_4=8$  
 $x_1+3x_3=-12$  
